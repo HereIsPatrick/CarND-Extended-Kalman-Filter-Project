@@ -11,18 +11,18 @@
 ### Dataset 1(Lidar & Radar)
 	RMSE (px,py,vx,vy)=(0.0974, 0.0855, 0.4517, 0.4404)< [.11, .11, 0.52, 0.52]
 	Result is very good  
-![](images/Lidar_Radar.PNG) 
+![](images/Lidar_Radar.png) 
 
 ### Only Lidar
 	RMSE (px,py,vx,vy)=(0.1224, 0.0986, 0.5835, 0.4574)> [.11, .11, 0.52, 0.52]
 	Result is bad than two sensor devices input. 
-![](images/only_lidar.PNG)
+![](images/only_lidar.png)
  
 ### Only Radar
 	RMSE (px,py,vx,vy)=(0.1909, 0.2799, 0.4534, 0.6776)> [.11, .11, 0.52, 0.52]
 	Result is terrible than lidar and two sensor as above, 
 	because radar data variance is bigger than lidar variance.
-![](images/only_radar.PNG) 
+![](images/only_radar.png) 
 
 ## How to run:
 
